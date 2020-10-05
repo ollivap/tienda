@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+}
+.menu{
+  width:600px; /*ancho total de la pagina*/
+  height: 29px;
+  border:1px solid #333333; /*encadeno los 3 atributos claves del borde en una sola linea, ahorrando codigo XD*/
+  background-color:#5f5f5f;
+  margin:10px auto; /*10px arriba y abajo, y auto a los lados, para los navegadores nuevos es suficiente para centrar la pagina*/
+  text-align:right;
+}
+.menu ul {
+    list-style-type:none; /*con esto quitamos las viñetas*/
+    margin:0; /*le quitamos el margen a la lista*/
+    padding:0; /*y el relleno*/
+}
+.menu li {
+    margin:0; /*le quito el margen al elemento de la lista*/
+    float:right; /*y los floto a la izquierda para eliminar el salto de linea*/
+}
+.menu li a {
+    display:block; /*con esto el vinculo tendra un area rectangular, asi no sera solo el texto*/
+    background-color:#5f5f5f; /*algo de color*/
+    color:#FFFFFF; /*mas*/
+    width:115px; /*defino el ancho del rectangulo del vinculo*/
+    padding:4px 0 5px 22px; /*sumamos el relleno al ancho y alto del rectangulo para obtener el div #menu completamente ocupado con los ítems del menú*/
+    text-decoration:none; /*elimino el subrayado del vínculo*/
+    font-weight:bold; /*decoración*/
+    text-transform:uppercase; /*decorare los vinculos en mayusculas*/
+}
+.menu li a:hover {
+    background-color:#4caf50; /*decoración para el evento hover (mouse encima)*/
+}
+.contenido{
+  width:600px; /*ancho total de la pagina*/
+  border:1px solid #333333; /*encadeno los 3 atributos claves del borde en una sola linea, ahorrando codigo XD*/
+  background-image: url("/sistemasWEB/img/fondoTienda.jpg");
+  margin:10px auto; /*10px arriba y abajo, y auto a los lados, para los navegadores nuevos es suficiente para centrar la pagina*/
+  text-align:center;
+}
